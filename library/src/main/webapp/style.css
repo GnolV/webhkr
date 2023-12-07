@@ -1,0 +1,118 @@
+table, th, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0 5px 0 5px;
+}
+
+table {
+  margin-left: auto; margin-right: auto; width: 80%;
+}
+
+th {
+  background: gray;
+  color: white;
+}
+
+tr {
+  text-align: center;
+}
+
+button{
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.row {
+  text-align: center;
+  color: white;
+  background: #3498db;
+}
+
+.container {  
+  position: relative;
+  /* display: grid; */
+  place-items: center;
+  #btn-edit {
+    background: #2b75ed;
+  }
+  
+  #btn-delete {
+    background: #e83134;
+  }
+}
+
+.addBtn {
+  display: flex;
+  justify-content: left;
+
+  #btn-add {
+    background-color: aquamarine;
+    cursor: pointer;
+    position: fixed;
+  }
+}
+
+.error h1 {
+  background-color: #e83134;
+  text-align: center;
+}
+
+.error h2 {
+  text-align: center;
+}
+
+.error .btn-back {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.container-infor h1 {
+  text-align: center;
+  color: white;
+  background: #3498db;
+  
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.btn-save {
+  background-color: aquamarine;
+}
+
+.btn-back {
+  background-color: grey;
+}
+
+.label-col label {
+  font-size: 20px;
+}
+
+.container-infor {
+  position: relative;
+}
+
+.label-col {
+  padding: 0 320px 0 20px;
+  line-height: 25px;
+}
+
+.input-col {
+  position: absolute;
+  top: 70px;
+  left: 110px;
+}
+
+.input-col input {
+  height: 20px;
+}
